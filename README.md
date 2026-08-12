@@ -7,12 +7,13 @@ The repository contains:
 3. The bash scripts aretomo_array_template.sh and deploy_aretomo_array.sh to operate AreTomo (v1.3) [2] in batch mode.
 4. The trained model 'BoxNet2Mask_gold_removal.zip' for fiducial identification and masking, to be used in Warp/M [1].
 5. The 3D volume 'ref80S_12Apx.mrc' at the voxel size of 12.24 Å and box sixe of 34 px, to be used for template matching in Warp/M [1].
-6. Files for 3D printing of pedestals (formats 3MF and STL) in folder 'Pedestals_3D_print.zip'. They can be read by all 3D printer software. Three designs are provided, one for each well format: 24-well, 12-well and 6-well.
+6. Files for 3D printing of pedestals (formats 3MF and STL) in folder 'Pedestals_3D_print.zip'. They can be read by all 3D printer software. Three designs are provided, one for each well format: 24-well, 12-well, and 6-well.
 
 All files are stored as non-executables to prevent problems during download (.nopy/.nosh need to be renamed to .py/.sh after download).
 
-Credit goes to Herman Fung from the Mahamid group at EMBL@Heidelberg, Jana Kroll from MDC Berlin as well as Christoph Diebolder and Thiemo Sprink @ from CFcryoEM@Berlin.
+Credit goes to Herman Fung from the Mahamid group at EMBL@Heidelberg, Jana Kroll from MDC Berlin as well as Christoph Diebolder and Thiemo Sprink @ from CFcryoEM@Berlin. Pedestals were originally designed by M. Schacherl and were published here [3].
 
 References:
-1. Tegunov D, Xue L, Dienemann C, Cramer P and Mahamid J. Nat Methods 18, 186 (2021). DOI: 10.1038/s41592-020-01054-7
+1. Tegunov D and Cramer P. Nat Methods 16, 1146 (2019). DOI: 10.1038/s41592-019-0580-y
 2. Zheng S et al. J Struct Biol X 6, 100068 (2022). DOI: 10.1016/j.yjsbx.2022.100068
+3. Kroll J et al. Nat Commmun 16, 11131 (2025). DOI: 10.1038/s41467-025-67291-6
