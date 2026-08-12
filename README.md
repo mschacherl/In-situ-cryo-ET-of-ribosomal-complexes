@@ -14,5 +14,5 @@ All files are stored as non-executables to prevent problems during download (.no
 Credit goes to Herman Fung from the Mahamid group at EMBL@Heidelberg, Jana Kroll from MDC Berlin as well as Christoph Diebolder and Thiemo Sprink @ from CFcryoEM@Berlin.
 
 References:
-1. Tegunov D, Xue L, Dienemann C, Cramer P and Mahamid J. Nat Methods 18, 186 (2021). 10.1038/s41592-020-01054-7
-2. Zheng S et al. J Struct Biol X 6, 100068 (2022). 10.1016/j.yjsbx.2022.100068
+1. Tegunov D, Xue L, Dienemann C, Cramer P and Mahamid J. Nat Methods 18, 186 (2021). DOI: 10.1038/s41592-020-01054-7
+2. Zheng S et al. J Struct Biol X 6, 100068 (2022). DOI: 10.1016/j.yjsbx.2022.100068
