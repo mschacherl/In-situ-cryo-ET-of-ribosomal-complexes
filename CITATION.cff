@@ -1,0 +1,11 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Schacherl
+  given-names: Magdalena
+orcid: https://orcid.org/0000-0002-5478-2509
+title: In-situ-cryo-ET-of-ribosomal-complexes
+version: First
+doi: 10.5281/zenodo.21902483 
+date-released: 2026-08-12
+url: "https://github.com/mschacherl/In-situ-cryo-ET-of-ribosomal-complexes"
