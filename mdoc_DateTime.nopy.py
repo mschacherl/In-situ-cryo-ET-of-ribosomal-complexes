@@ -1,0 +1,26 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Dec 21 13:40:03 2022
+
+@author: krollj
+"""
+
+import os
+import glob
+
+
+os.chdir('/your_data/mdocs')
+filenames = (glob.glob('*.mdoc'))
+
+for f in filenames:
+
+    # Read in the file
+    with open(f, 'r') as file :
+      filedata = file.read()
+    
+    # Replace the target string
+    filedata = filedata.replace('DateTime = 03-Jul-2023', 'DateTime = 03-Jul-23')
+    
+    # Write the file out again
+    with open(f, 'w') as file:
+      file.write(filedata)
